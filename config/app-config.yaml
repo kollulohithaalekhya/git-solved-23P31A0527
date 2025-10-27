@@ -3,15 +3,26 @@ application:
   version: 1.0.0
   environment: production
   
+  # Experimental settings (disabled by default)
+  # version: 3.0.0-experimental
+  # experimental_mode: true
+
 server:
   host: 0.0.0.0
   port: 8080
   ssl_enabled: true
   
+  # Experimental multi-port support
+  # multi_port: [9000, 9001, 9002]
+
 logging:
   level: INFO
   format: json
   
+  # Experimental logging features
+  # output: /var/log/experimental.log
+  # ai_analysis: enabled
+
 # Development configuration (enabled via environment variable)
 development:
   enabled: false
@@ -19,3 +30,34 @@ development:
   hot_reload: false
   debug_mode: false
   mock_apis: false
+
+# Experimental database (commented out, not active)
+# database:
+#   host: cluster.example.com
+#   port: 5432
+#   name: devops_experimental
+#   distributed: true
+
+# Experimental feature flags (off by default)
+features:
+  auto_scaling: true
+  load_balancer: enabled
+  # backup_enabled: false
+  # chaos_engineering: disabled
+
+# ai_features:
+#   predictive_scaling: true
+#   anomaly_detection: true
+#   auto_optimization: true
+#   model_version: "v2.1.0"
+
+# cloud_providers:
+#   - aws
+#   - azure
+#   - gcp
+#   - digitalocean
+
+# security:
+#   zero_trust: enabled
+#   encryption: AES-256
+#   audit_logging: comprehensive

@@ -38,3 +38,38 @@ DevOps Simulator follows a microservices architecture designed for high availabi
 ## Security
 - **Production**: SSL/TLS encryption, strict access controls
 - **Development**: Relaxed security for easier debugging
+
+
+<!--
+# System Architecture - Experimental Build (Not Production Ready)
+
+## Overview
+Event-driven microservices architecture with AI/ML integration designed for multi-cloud deployments and chaos engineering.
+
+## Core Components
+
+### 1. Application Server (AI-Enhanced)
+- Node.js + Express + TensorFlow.js
+- Ports: 9000 (main), 9001 (metrics), 9002 (AI API)
+- Predictive auto-scaling using ML
+- Event streaming via Apache Kafka
+
+### 2. Distributed Database Layer
+- PostgreSQL 14 cluster (5-node)
+- Redis cluster with ML-based cache optimization
+- Multi-master replication with geo backup
+
+### 3. AI/ML Pipeline
+- TensorFlow / PyTorch / Scikit-learn
+- Models for anomaly detection, load prediction, and scaling optimization
+- Real-time inference (<50ms latency)
+
+### 4. Multi-Cloud Orchestration
+- Kubernetes with custom CRDs
+- Supports AWS, Azure, GCP, DigitalOcean
+- Automatic multi-region failover
+
+### 5. Advanced Observability
+- Prometheus + Thanos (metrics)
+- ELK stack with AI-driven log analysis
+-->
