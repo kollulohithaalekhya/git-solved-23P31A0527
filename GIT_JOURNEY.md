@@ -82,7 +82,47 @@ merge conflicts across multiple branches using proper Git workflows.
 
 ### Merge 2: main + conflict-simulator (6 files)
 
-[Document the second set of conflicts similarly]
+#### Conflict 1: config/app-config.yaml
+- **Issue**: Experimental branch added AI & multi-cloud settings conflicting with stable production config
+- **Resolution**: Kept stable production values; preserved experimental config as commented optional block
+- **Strategy**: Maintain stability while allowing future experimental enablement
+- **Difficulty**:  Medium
+- **Time**: 20 minutes
+
+#### Conflict 2: config/database-config.json
+- **Issue**: conflict-simulator introduced distributed & AI-optimized DB config
+- **Resolution**: Added _experimental database profile without altering production/development profiles
+- **Strategy**: Ensure backward compatibility while keeping experimental support available
+- **Difficulty**:  Hard
+- **Time**: 25 minutes
+
+#### Conflict 3: scripts/deploy.sh
+- **Issue**: Experimental script included AI-based deployment flow conflicting with stable deploy logic
+- **Resolution**: Retained production/development logic; kept experimental section commented under "EXPERIMENTAL" block
+- **Strategy**: Preserve advanced features without enabling them by default
+- **Difficulty**:  Hard
+- **Time**:30 minutes
+
+#### Conflict 4: scripts/monitor.js
+- **Issue**: Experimental monitoring added predictive AI health analysis
+- **Resolution**: Kept standard monitoring active; included AI-monitor as optional commented module
+- **Strategy**: Clear separation of stable and experimental code paths
+- **Difficulty**:  Medium
+- **Time**: 20 minutes
+
+#### Conflict 5: docs/architecture.md
+- **Issue**: Experimental branch introduced distributed and auto-scaling architecture description
+- **Resolution**: Added new section titled "Experimental Enhancements" explaining advanced architecture
+- **Strategy**: Document both stable and experimental architectures distinctly
+- **Difficulty**:  Easy
+- **Time**:15 minutes
+
+#### Conflict 6: README.md
+- **Issue**:Experimental README emphasized AI automation features which were not stable
+- **Resolution**: Separated features into Stable Features and Experimental (Optional) section
+- **Strategy**: Improve clarity for readers and prevent confusion
+- **Difficulty**: Easy
+- **Time**: 10 minutes
 
 ## Most Challenging Parts
 
