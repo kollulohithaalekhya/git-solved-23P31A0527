@@ -3,7 +3,7 @@
 ## Student Information
 - Name: Kollu Lohitha Alekhya
 - Student ID: 23P31A0527
-- Repository: https://github.com/kollulohithaalekhya/git-solved-23P31A0527.git
+- Repository: https://github.com/kollulohithaalekhya/git-solved-23P31A0527
 - Date Started: 27 October 2025
 - Date Completed: 28 October 2025
 
