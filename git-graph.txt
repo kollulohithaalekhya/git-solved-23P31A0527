@@ -1,4 +1,7 @@
-* d1d5024 (HEAD -> main, origin/main) docs: Add changelog
+* 28db9c5 (HEAD -> main, origin/main) docs: Add Git Journey report
+* 6d64216 chore: Stop tracking checkpoint images
+* 8586915 docs: Add final project artifacts
+* d1d5024 docs: Add changelog
 * 59bc5a8 docs: Add Git Journey report
 | * 2352343 (origin/feature/another-feature) feat: Add test feature
 |/  
